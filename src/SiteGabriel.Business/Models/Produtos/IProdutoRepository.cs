@@ -11,6 +11,6 @@ namespace SiteGabriel.Business.Models.Produtos
     {
         Task<IEnumerable<Produto>> ObterProdutosPorFornecedor(Guid fornecedorId);
         Task<IEnumerable<Produto>> ObterProdutosFornecedores();
-        Task<Produto> ObterProdutoFornecedor(Guid id); 
+        Task<Produto> ObterProdutoFornecedor(Guid id);
     }
 }
