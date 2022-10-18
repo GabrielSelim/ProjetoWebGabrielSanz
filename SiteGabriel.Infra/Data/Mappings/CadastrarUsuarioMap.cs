@@ -13,6 +13,9 @@ namespace SiteGabriel.Infra.Data.Mappings
                     .IsRequired()
                     .HasMaxLength(200);
 
+            Property((c => c.DataNascimento))
+                .IsRequired();
+            
             Property(c => c.Sexo)
                 .IsRequired();
 
